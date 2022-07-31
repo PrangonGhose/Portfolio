@@ -1,0 +1,202 @@
+/*Main background*/
+
+.bg-image {
+    background-image: url(images/bg-paper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Back to top button*/
+
+#back-to-top {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*Common styling for all contents*/
+
+.content {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+/*First line of Portfolio*/
+
+#first-line {
+    font-family: 'Bauhaus 93', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+/*Second line of Portfolio*/
+
+#second-line {
+    font-family: Limelight, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+/*Common styling of all section dividers*/
+
+.divider {
+	background: url(images/divider.gif);
+    filter: contrast(40%);
+    background-repeat: no-repeat;
+    background-size: contain;
+	height: 20px;
+	margin: 24px 0;
+    position: relative;
+    left: 320px;
+}
+
+/*Styling of navigation panel*/
+
+.navigation {
+    margin: 0 5px;
+    font-size: 13px;
+    text-align: center;
+}
+.navigation a {
+	color: #6C7151;
+	font: normal 1.9em serif;
+	line-height: 50px;
+	margin: 0 16px;
+	text-decoration: none;
+}
+.navigation a:hover {
+	color: #2C3111;
+}
+
+/*Common styling of wrapper*/
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+/*Styling of all left bookmark images. Bookmarks are used here to stay on the page until the specific section ends. But it cannot
+be done without the implementation of JavaScript. As the whole page is written only using HTML and CSS, this bookmark is left unused.
+It will be corrected later after learning the implementation of JavaScript.*/
+
+.about-me-image {
+    background-image: url(images/about-me.png);
+    background-repeat: no-repeat;
+    float: left;
+	height: 64px;
+    margin: 0px;
+	width: 158px;
+}
+.education-image {
+    background-image: url(images/education.png);
+    background-repeat: no-repeat;
+    float: left;
+	height: 64px;
+    margin: 0px;
+	width: 158px;
+}
+.skills-image {
+    background-image: url(images/skills.png);
+    background-repeat: no-repeat;
+    float: left;
+	height: 64px;
+    margin: 0px;
+	width: 158px;
+}
+.research-image {
+    background-image: url(images/research.png);
+    background-repeat: no-repeat;
+    float: left;
+	height: 64px;
+    margin: 0px;
+	width: 158px;
+}
+.activities-image {
+    background-image: url(images/activities.png);
+    background-repeat: no-repeat;
+    float: left;
+	height: 64px;
+    margin: 0px;
+	width: 158px;
+}
+.contact-image {
+    background-image: url(images/contact.png);
+    background-repeat: no-repeat;
+    float: left;
+	height: 64px;
+    margin: 0px;
+	width: 158px;
+}
+
+/*Common styling of all list items*/
+
+.list {
+    text-align: justify;
+}
+li {
+    padding: 3px;
+}
+li:hover {
+    background-color: bisque;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px black;
+}
+
+/*Common styling of all tables*/
+
+table {
+    width: 1200px;
+    border: 3px;
+    border-style: solid;
+    border-spacing: 0 15px;
+    border-collapse: separate;
+}
+tr:hover {
+    background-color: bisque;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px black;
+}
+th {
+    font: large;
+    width: 200px;
+}
+
+/*Styling of second headers*/
+
+h2 {
+    width: 1200px;
+    color: #6C7151;
+}
+
+/*Common styling of all contact processes*/
+
+.mailing {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mailing:hover {
+    background-color: bisque;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px black;
+}
+
+/*Styling of the Reading publication link*/
+
+#read {
+    color: #6c7166;
+    font: normal 17px serif;
+    line-height: 50px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+#read:hover {
+	color: #2C3111;
+}
+
+/*Styling of about me paragraph*/
+
+#about-me {
+    padding-top: 20px;
+    font-size: 18px;
+}
